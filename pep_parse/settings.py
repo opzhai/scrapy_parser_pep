@@ -11,7 +11,7 @@ FEEDS = {
          'fields': ['number', 'name', 'status'],
          'overwrite': True
          },
-        }
+}
 
 ITEM_PIPELINES = {
     'pep_parse.pipelines.PepParsePipeline': 300,

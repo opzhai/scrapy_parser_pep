@@ -2,7 +2,7 @@ import csv
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from scrapy.exceptions import DropItem
+
 
 BASE_DIR = Path(__file__).parent.parent
 

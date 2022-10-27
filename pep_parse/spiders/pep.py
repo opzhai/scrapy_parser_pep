@@ -20,5 +20,5 @@ class PepSpider(scrapy.Spider):
             'number': number[1],
             'name': response.xpath('//*[@id="pep-content"]/h1/text()').get(),
             'status': response.css('dt:contains("Status") + dd::text').get()
-            }
+        }
         yield PepParseItem(data)
